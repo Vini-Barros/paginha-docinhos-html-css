@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(105, 82, 199);
+    color: aliceblue;
+}
+
+.amor-carinho {
+    color: rgb(206, 133, 246);
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apresentacao__content {
+    width: 915px;
+}
+
+.content__title {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content__paragraph {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content__links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.content__buttons {
+    background-color: rgb(206, 133, 246);
+    font-size: 24px;
+    font-weight: 500;
+    width: 250px;
+    text-align: center;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
